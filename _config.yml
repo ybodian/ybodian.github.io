@@ -31,9 +31,10 @@ url: "https://smartchameleontech.com" # the base hostname & protocol for your si
 domain: smartchameleontech.com
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: jeromelachaud/freelancer-theme
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
